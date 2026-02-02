@@ -73,6 +73,14 @@ namespace StatementGenerator
             get { return _ADDRESS; }
             set { _ADDRESS = value; }
         }
+
+        private string _PROMOTIONALTEXT;
+
+        public string PROMOTIONALTEXT
+        {
+            get { return _PROMOTIONALTEXT; }
+            set { _PROMOTIONALTEXT = value; }
+        }
         private string _CITY;
 
         public string CITY

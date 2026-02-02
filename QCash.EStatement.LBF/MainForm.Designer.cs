@@ -163,7 +163,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
-            this.Text = "LankBangla E-Mail Engine V3.0.8";
+            this.Text = "LankBangla E-Mail Engine V3.0.9";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.uTabMdiManager)).EndInit();
             this.menuStrip1.ResumeLayout(false);

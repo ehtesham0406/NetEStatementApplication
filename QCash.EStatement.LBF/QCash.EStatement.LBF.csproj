@@ -223,6 +223,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EStatement_02.02.26.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EStatement_02.02.26.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\EStatement.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>EStatement.cs</LastGenOutput>
@@ -241,6 +245,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\EStatement_02.02.26.cs">
+      <DependentUpon>EStatement_02.02.26.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Reports\EStatement.cs">
       <DependentUpon>EStatement.rpt</DependentUpon>
